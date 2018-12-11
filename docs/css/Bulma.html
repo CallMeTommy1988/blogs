@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>electron</title>
+  <link rel="stylesheet" href="bulma.css">
+</head>
+
+<body>
+  <div class="content">
+    <h2>修饰符语法</h2>
+    <p>何为修饰符语法，你可以理解为一个方法的接口，你可以在元素上加各种各样的接口</p>
+    <blockquote>
+      大多数 Bulma 元素都有可 选择 的样式，你只需要添加一个 修饰符 即可应用样式。他们都以 is- has- 开头.
+    </blockquote>
+
+    <h4>颜色</h4>
+    <div class="columns">
+      <ol>
+        <li>is-primary</li>
+        <li>is-link</li>
+        <li>is-info</li>
+        <li>is-success</li>
+        <li>is-warning</li>
+        <li>is-danger</li>
+      </ol>
+    </div>
+  </div>
+
+
+  <div class="content">
+    <h2>列</h2>
+    <p>列 columns 是一个响应式布局，默认会均分。</p>
+
+    <div class="columns">
+      <div class="column">
+        <p class="notification is-info">第一列</p>
+      </div>
+      <div class="column">
+        <p class="notification is-success">第二列</p>
+      </div>
+      <div class="column">
+        <p class="notification is-warning">第三列</p>
+      </div>
+      <div class="column">
+        <p class="notification is-danger">第四列</p>
+      </div>
+    </div>
+
+    <p>控制列的大小, columns一直是均分，如果想要设置大小，可以</p>
+
+    <ul>
+      <li>is-four-fifths</li>
+      <li>is-three-fifths</li>
+      <li>is-two-fifths</li>
+      <li>is-one-fifth</li>
+      <li>is-three-quarters</li>
+      <li>is-two-thirds</li>
+      <li>is-half</li>
+      <li>is-one-third</li>
+      <li>is-one-quarter</li>
+    </ul>
+
+    <p>is-num-num, 最后一位是几分，中间就是站几分。在这块布局中你想站多少？ 剩下的布局会均分</p>
+
+    <div class="columns">
+      <div class="column is-four-fifths">
+        <p class="notification is-info">
+          <code class="html">is-four-fifths</code>
+        </p>
+      </div>
+      <div class="column">
+        <p class="notification is-success">Auto</p>
+      </div>
+      <div class="column">
+        <p class="notification is-warning">Auto</p>
+      </div>
+    </div>
+
+    <ul>
+      <li><code>is-2</code></li>
+      <li><code>is-3</code></li>
+      <li><code>is-4</code></li>
+      <li><code>is-5</code></li>
+      <li><code>is-6</code></li>
+      <li><code>is-7</code></li>
+      <li><code>is-8</code></li>
+      <li><code>is-9</code></li>
+      <li><code>is-10</code></li>
+      <li><code>is-11</code></li>
+    </ul>
+
+    <div class="columns">
+      <div class="column is-4">
+        <p class="notification is-info"><code>is-4</code></p>
+      </div>
+      <div class="column">
+        <p class="notification is-success has-text-centered">1</p>
+      </div>
+      <div class="column">
+        <p class="notification is-warning has-text-centered">1</p>
+      </div>
+      <div class="column">
+        <p class="notification is-success has-text-centered">1</p>
+      </div>
+      <div class="column">
+        <p class="notification is-warning has-text-centered">1</p>
+      </div>
+      <div class="column">
+        <p class="notification is-success has-text-centered">1</p>
+      </div>
+      <div class="column">
+        <p class="notification is-warning has-text-centered">1</p>
+      </div>
+      <div class="column">
+        <p class="notification is-success has-text-centered">1</p>
+      </div>
+      <div class="column">
+        <p class="notification is-warning has-text-centered">1</p>
+      </div>
+    </div>
+    <h3>is-narrow</h3>
+    <div class="columns is-desktop">
+      <div class="column is-narrow ">
+        <div class="box" style="width: 200px;">
+          <p class="title is-5">Narrow column</p>
+          <p class="subtitle">This column is only 200px wide.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <p class="title is-5">Flexible column</p>
+          <p class="subtitle">This column will take up the remaining space available.</p>
+        </div>
+      </div>
+    </div>
+    <p>
+      其实是否是 <code>is-narrow</code> 都会达到同样的效果，差别只是在 <b>Narrow colum</b> 是否居中而以。
+    </p>
+
+    <div class="columns is-mobile is-centered"   >
+        <div class="column is-half " style="background: black;">
+          <p class="bd-notification is-info">
+            <code class="html">is-half</code><br>
+            <code class="html">is-narrow</code>
+          </p>
+        </div>
+      </div>
+
+    <div class="columns is-multiline is-mobile">
+        <div class="column is-one-quarter">
+          <code>is-one-quarter</code>
+        </div>
+        <div class="column is-one-quarter">
+          <code>is-one-quarter</code>
+        </div>
+        <div class="column is-one-quarter">
+          <code>is-one-quarter</code>
+        </div>
+        <div class="column is-one-quarter">
+          <code>is-one-quarter</code>
+        </div>
+        <div class="column is-half">
+          <code>is-half</code>
+        </div>
+        <div class="column is-one-quarter">
+          <code>is-one-quarter</code>
+        </div>
+        <div class="column is-one-quarter">
+          <code>is-one-quarter</code>
+        </div>
+        <div class="column is-one-quarter">
+          <code>is-one-quarter</code>
+        </div>
+        <div class="column">
+          Auto
+        </div>
+      </div>
+
+      <h3>列的嵌套</h3>
+      <div class="columns">
+        <div class="column">
+          
+        <div class="columns">
+        <div class="column">
+          <p class="notification is-info">第一列</p>
+        </div>
+        <div class="column">
+          <p class="notification is-success">第二列</p>
+        </div>
+        <div class="column">
+          <p class="notification is-warning">第三列</p>
+        </div>
+        <div class="column">
+          <p class="notification is-danger">第四列</p>
+        </div>
+      </div></div>
+        <div class="column">
+          <p class="notification is-success">第二列</p>
+        </div>
+        <div class="column">
+          <p class="notification is-warning">第三列</p>
+        </div>
+        <div class="column">
+          <p class="notification is-danger">第四列</p>
+        </div>
+      </div>
+  </div>
+  </div>
+</body>
+
+</html>
