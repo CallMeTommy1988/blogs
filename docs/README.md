@@ -6,3 +6,8 @@
 
 - [Bulma](/css/Bulma)
 - [Bulma测试样例](#)
+
+
+## 2.work
+
+- [一个redis错误](/work/redis_async)
