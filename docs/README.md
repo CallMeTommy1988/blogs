@@ -11,3 +11,11 @@
 ## 2.work
 
 - [一个redis错误](/work/redis_async)
+
+## 3. 设计模式
+
+- [MVC & MVVM](/mind/mvc&mvvm)
+
+## 4. javascript
+
+- [javascript 基础类型](/js/basic.md)
