@@ -6,11 +6,13 @@
 
 - [Bulma](/css/Bulma)
 - [Bulma测试样例](#)
+- [Grid & flex](/css/gridflex)
 
 
 ## 2.work
 
 - [一个redis错误](/work/redis_async)
+- [网站优化](/work/web_optimize)
 
 ## 3. 设计模式
 
