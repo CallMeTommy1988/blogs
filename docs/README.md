@@ -8,6 +8,7 @@
 - [Bulma](/css/Bulma)
 - [Bulma测试样例](#)
 - [Grid & flex](/css/gridflex)
+- [响应式图片初探](/css/ResponsiveImage)
 
 ## 2.work
 
