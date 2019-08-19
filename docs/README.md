@@ -22,6 +22,7 @@
 
 ## 4. javascript
 
+- [jquery 选择器记录 2019-08-19 23:49:45](/js/jquery_selector.md)
 - [undefined 杂谈](/js/about_undefined) 
 - [关于执行上下文和调用栈](/js/duizhan)
 - [assert](/js/assert)
