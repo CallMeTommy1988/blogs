@@ -4,8 +4,8 @@
 
 ## 1.css
 
-- [radial-gradient**(2019年08月22日20:00:53)**](/css/radial-gradient)
-- [linear-gradient**(2019年08月21日22:01:38)**](/css/linear-gradient)
+- [radial-gradient**(2019年08月22日20点00分53秒)**](/css/radial-gradient)
+- [linear-gradient**(2019年08月21日22点01分38秒)**](/css/linear-gradient)
 - [关于清除浮动](/css/about_float)
 - [Bulma](/css/Bulma)
 - [Bulma测试样例](#)
