@@ -4,7 +4,8 @@
 
 ## 1.css
 
-- [box-sizing**2019年10月18日 22时42分**](/css/boxsizing)
+- [@font-face 20191021](/css/fontface.md)
+- [box-sizing**2019年10月19日 22时42分**](/css/boxsizing)
 - [text-overflow**2019年10月18日20:35分**](/css/textoverflow)
 - [关于文字断行**(2019年10月17日20点30分)**](/css/words)
 - [关于border-radius**(2019年08月28日20点22分18秒)**](/css/border-radius)
