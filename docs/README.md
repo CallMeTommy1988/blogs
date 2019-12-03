@@ -3,7 +3,11 @@
 简单记录一下，一些经验教训和学习的过程。
 
 ## 1.css
-
+- [css三角形 **20191027**](/css/sharp_cornor.md)
+- [纯css的tip **20191026**](/css/css_tip.md)
+- [纯css的tab栏 **20191025**](/css/css_tab.md)
+- [兼容性的小知识 **20191024**](/css/compatibility.md)
+- [固定底部的菜单 **20191023**](/css/bottom_fix.md)
 - [@background-size **20191022**](/css/backgroundsize)
 - [@font-face **20191021**](/css/fontface)
 - [box-sizing**2019年10月19日 22时42分**](/css/boxsizing)
